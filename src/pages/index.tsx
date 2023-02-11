@@ -46,7 +46,7 @@ export default function Home() {
 				<li key={el.id}>
 					<div>
 						<p>{el.name}</p>
-						{/* <p>{new Date().toString()}</p> */}
+						<p>{new Date().toString()}</p>
 					</div>
 				</li>
 				)
